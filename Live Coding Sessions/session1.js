@@ -29,3 +29,4 @@ function diffList(a, b) {
   return a.filter((num) => !result.has(num));
 }
 console.log(diffList(a, b));
+
